@@ -1,6 +1,6 @@
 # Pen-Plotter-Arduino-Shield
 
-## This is a Pen Plotter Arduino Shield to be used with an Uno R3 Arduino. Rev -
+## This is a Pen Plotter Arduino Shield to be used with an Uno R3 Arduino. Rev A
 
 This shield is designed to work with an Arduino that has been loaded with GRBL 0.9. All electrical pin definitions are the default pin assignments specified in the 0.9 version of the code. N.B, servo PWM control uses PIN D11 (the Z-Limit signal). Pen-up command is M03 S255 and Pen-down command is M03 S0. With the current firmware, the angle delta between S255 and S0, is 90 degrees. A couple notes about this shield:
 
@@ -14,8 +14,7 @@ This shield is designed to work with an Arduino that has been loaded with GRBL 0
 
 The following changes should be made to Rev A:
 
-- Silkscreen on PCB for the power jack should just read 12 V, instead of 12 V - 24 V. PTC is not rated for more than 12 V.
-- Move capacitor C4 down, closer to D1. Right now, the bottom leads interfere with the metal housing of the USB connector on the main Arduino board. Currently, electrical tape is used on top of the USB housing, to keep it from short to the cap leads.
+- No changes need to be implemented to date
 
 Parts list:
 |Designator |Designation |MFG |MFG Part No. |Supplier|Supplier Part No. |Quantity|
